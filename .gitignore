@@ -1,0 +1,15 @@
+# 1. Bloquear absolutamente todo (archivos y carpetas)
+*
+
+# 2. Permitir que Git entre en las carpetas para buscar archivos
+!*/
+
+# 3. Hacer la excepción para archivos de Python
+!*.py
+
+# 4. Permitir el README y la Licencia 
+!README.md
+!LICENSE
+
+# 5. Permitir el propio .gitignore
+!.gitignore
